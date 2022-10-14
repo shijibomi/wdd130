@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Rokkitt:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,9 +7,13 @@
 nav a {
     text-align: center;
     color:#5b475c;
+    font-family:Rokkitt, Helvetica, sans-serif; ;
+    padding: 35px;
 }
-#hero-msg h1 {text-align: center;}
+#hero-msg h1 {text-align: center;
+    font-family: Bangers, Helvetica, sans-serif;}
 #hero-msg h4 {text-align: center;
+    font-family: Rokkitt, Helvetica, sans-serif;;
  color:#5b475c}
 .button-box {
     text-align: center;
@@ -22,7 +28,10 @@ main section {
 body {
   
 background-color:azure; 
-}
+font-family: Rokkitt, Helvetica, sans-serif;
+font-size: 22px;
+margin: 0;
+padding: 0;}
 header {
   
   background-color:#6fdee6;
@@ -30,48 +39,74 @@ header {
 nav a:hover {
     background-color: black;
     color:#1affd5;
+    font-family: Rokkitt, Helvetica, sans-serif;;
 text-decoration: none;
 }
 .book {
   background-color:#5b475c;
   color:#1affd5;
+  font-family:Rokkitt, Helvetica, sans-serif; ;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .join {
     background-color:#5b475c;
     color:#1affd5;
+    font-family: Rokkitt, Helvetica, sans-serif;;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
  .book:hover {
     background-color: black;
     color:#1affd5;
-    
+    font-family: Rokkitt, Helvetica, sans-serif;;
+    font-size: 18px;
  }
 .join:hover{
     background-color: black;
      color:#1affd5;
-}
+     font-family: Rokkitt, Helvetica, sans-serif;;
+font-size: 18px;
+    }
 
 .msg {
     background-color: #558b76;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:#5b475c;
     color:#1affd5;
+    font-family: Rokkitt, Helvetica, sans-serif;;
+padding: 25px 50px;
+margin-top: 200px;
 }
 .home-title {
     color:#5b475c;
+    font-family: Bangers, Helvetica, sans-serif;;
+font-size: 2em;
+margin-top: 10px;
 }
 .msg h2 {
 color: #1affd5;
+font-family: Bangers, Helvetica, sans-serif;;
 }
 .msg p { color:#1affd5;
+    font-family: Rokkitt, Helvetica, sans-serif;;
+font-size: .8em;
+padding-bottom: 15px;
 }
 footer a { color:#1affd5;
+    font-family: Rokkitt, Helvetica, sans-serif;;
 text-decoration: none;}
-footer a:hover { color:#1affd5;}
+footer a:hover { color:#1affd5;
+font-family: Rokkitt, Helvetica, sans-serif;;}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
  #hero-img {
     width: 100%;
@@ -81,4 +116,28 @@ footer a:hover { color:#1affd5;}
 }
 footer p {
     font-size: 1.2em;   
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top;: 5px
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+card-img {
+    border: 10px solid black ;
+}
+main section img {
+    box-sizing: border-box;
 }
