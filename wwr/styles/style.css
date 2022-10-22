@@ -141,3 +141,6 @@ card-img {
 main section img {
     box-sizing: border-box;
 }
+.card-img {
+    border: 10px solid #1affd5
+    
