@@ -4,9 +4,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-.home-grid {
-    
-}
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -92,13 +90,14 @@ padding: 0;
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    grid-column: 1/4;
     
 }
 
 }
 nav a:hover {
     background-color: black;
-    color:#1affd5;
+    color:#0b3f35;
     font-family: Rokkitt, Helvetica, sans-serif;;
 text-decoration: none;
 }
@@ -147,15 +146,10 @@ footer {
     font-family: Rokkitt, Helvetica, sans-serif;;
 padding: 25px 50px;
 margin-top: 200px;
+grid-column: 1/4;
 display: flex;
 justify-content: space-around;
 align-items: center;
-position: fixed;
-left:0;
-bottom: 0;
-width: 80%;
-text-align: center;
-
 }
 .home-title {
     color:#5b475c;
