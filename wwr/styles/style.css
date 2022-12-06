@@ -230,6 +230,13 @@ main section img {
 .card-img:hover {
     opacity: .6s;
     transform: scale(1,1);
+
+    /* Rates and Dates Page CSS*/
+   
+  
+       
+    
+    
 }
 /* This is the media query */
 @media screen and (max-width: 900px) {
