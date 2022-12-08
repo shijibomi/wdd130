@@ -229,15 +229,70 @@ main section img {
 }
 .card-img:hover {
     opacity: .6s;
-    transform: scale(1,1);
+    transform: scale(1,1);    
+}
 
-    /* Rates and Dates Page CSS*/
-   
-  
-       
+/*Rates and Dates Page*/
+#content {
+    max-width: 1600px;
+    max-height: 700px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
     
     
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+   background-color: #1affd5;
+    
+}
+#logo_link {
+    padding-top: 5px
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    color:#5b475c;
+    font-family:Rokkitt, Helvetica, sans-serif; ;
+    padding: 35px;
+}
+
+#hero3 {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr  1fr 1fr;
+    margin-top: -100px;
+}
+#hero-box3 {
+    width: 100%;
+    height: auto;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    
+}.nature{
+   grid-column: 2/4;
+   grid-row: -3/-2;
+   margin-left: 120%;
+   margin-top: -80%;
+}
+
+.msg4 {
+    width: 40%;
+    grid-column: 1/2 ;
+    grid-row: 2/3;
+    margin-left:100px;
+    margin-top: 30%;
+    
+    
+    
+}
+
 /* This is the media query */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
